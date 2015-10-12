@@ -69,5 +69,6 @@ int main() {
     }
   }
   closeThread.join();
+  unlink("/tmp/accept_interruption_test_sock");
   return 0;
 }
